@@ -2,10 +2,12 @@ body {
     background: url(images/C5505DA3-55E5-4751-BEA5-D72ABF38ED8E.jpeg);
     background-size: cover;
     font-family: 'Archivo Narrow', sans-serif;
+    margin: 0;
 }
 
 .logo {
     width: 100px;
+    margin: 30px;
 }
 
 .images img {
@@ -23,6 +25,12 @@ body {
     border-radius: 50%;
     color: black;
     margin: 30px;
+    background: #F26D57;
+}
+
+.use-point {
+    text-align: left;
+    margin-left: 20px;
 }
 
 .text {
@@ -41,6 +49,10 @@ p {
     margin: 25px;
 }
 
+footer {
+    background: #F26D57;
+    padding-bottom: 20px;
+}
 
 @media (min-width: 1000px) {
     body {
