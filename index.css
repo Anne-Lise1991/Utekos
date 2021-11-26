@@ -53,6 +53,7 @@ p {
 .logo {
     width: 200px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .images img {
@@ -104,6 +105,7 @@ p {
 
 footer {
     background: #F26D57;
+    padding-bottom: 20px;
 }
 
 .f-one {
@@ -121,5 +123,15 @@ li {
 
 .use-point {
     font-size: 1.90rem;
+}
+.copyright {
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.info-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 }
