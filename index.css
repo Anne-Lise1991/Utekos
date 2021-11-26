@@ -47,6 +47,7 @@ p {
         background: linear-gradient(0deg, rgba(229, 229, 229, 0.7), rgba(229, 229, 229, 0.7)), url(images/D16F040E-8287-489B-9B95-8AF8194CD140.jpeg);
         background-size: cover;
         background-position: center;
+        margin: 0;
     }
 
 .logo {
@@ -80,10 +81,11 @@ p {
     border: 3px solid #F36D57;
     text-decoration: none;
     color: black;
-    padding: 20px;
+    padding: 30px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.2rem;
+    background: #F26D57;
 }
 
 p {
@@ -94,9 +96,30 @@ p {
 }
 
 .links a {
-    margin-left: 180px;
     text-decoration: none;
     color: black;
     cursor: pointer;
+    margin-left: 400px;
+}
+
+footer {
+    background: #F26D57;
+}
+
+.f-one {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-left: 30px;
+}
+
+li {
+    font-size: 1.75rem;
+}
+
+.use-point {
+    font-size: 1.90rem;
 }
 }
